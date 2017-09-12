@@ -25,3 +25,8 @@ $("input[type='text']").keypress(function(){
        $("ul").append("<li><span><i class='fa fa-trash'></i></span> "+ todoText +"</li>");
     }
 });
+
+// Toggle efekat za input polje
+$(".fa-plus").click(function(){
+    $("input[type='text']").fadeToggle("slow");
+});
