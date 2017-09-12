@@ -1,3 +1,6 @@
-body{
-    
+#container{
+    background-color: gray;
+    width: 360px;
+    margin: 0 auto;
+
 }
