@@ -1,10 +1,10 @@
 // Check of specific todos by click
-$("li").click(function(){
+$("ul").on("click", "li", function(){
     $(this).toggleClass("completed");
 });
 
 // Brisem Todo klikom na X
-$("span").click(function(event){
+$("ul").on("click", "span", function(event){
      $(this).parent().fadeOut(500, function(){
         $(this).remove();
      });
